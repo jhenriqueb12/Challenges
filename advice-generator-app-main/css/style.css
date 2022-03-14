@@ -1,0 +1,13 @@
+:root {
+  --background: hsl(218, 23%, 16%);
+  --card: hsl(217, 19%, 24%);
+  --border: hsl(217, 19%, 38%);
+  --text-color: hsl(193, 38%, 86%);
+  --elements: hsl(150, 100%, 66%);
+}
+
+body {
+  background: var(--background);
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+}
