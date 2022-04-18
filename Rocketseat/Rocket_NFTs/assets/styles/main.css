@@ -19,7 +19,9 @@
 
 
 body {
-  background: var(--body-background);
+  background: url("../img/background.png") no-repeat, #0e0e0e;
+  margin: 56px 82px 60px 82px;
+
 }
 
 /* Header */
@@ -29,7 +31,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 56px 82px 0 82px;
 }
 
 .header-menu__itens {
@@ -47,4 +48,27 @@ body {
 
 .header-menu__itens--item-link:hover {
   color: var(--color-logo);
+}
+
+.header-button__wallet-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 50px;
+  border: none;
+  background-color: var(--text-color);
+  gap: 0 16px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.header-button__wallet-button:hover {
+  background-color: var(--color-logo);
+  color: var(--text-color);
+}
+
+.header-button__wallet--text {
+  font-size: 16px;
+  font-weight: bold;
 }
